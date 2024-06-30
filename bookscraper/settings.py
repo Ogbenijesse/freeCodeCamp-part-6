@@ -60,6 +60,10 @@ ROBOTSTXT_OBEY = True
 #    'scrapy.extensions.telnet.TelnetConsole': None,
 #}
 
+EXTENSIONS = {
+  'scrapeops_scrapy.extension.ScrapeOpsMonitor': 500, 
+}
+
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 #ITEM_PIPELINES = {
