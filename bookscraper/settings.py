@@ -54,6 +54,11 @@ ROBOTSTXT_OBEY = True
 #    'bookscraper.middlewares.BookscraperDownloaderMiddleware': 543,
 #}
 
+DOWNLOADER_MIDDLEWARES = {
+  'scrapeops_scrapy.middleware.retry.RetryMiddleware': 550,
+  'scrapy.downloadermiddlewares.retry.RetryMiddleware': None,
+}
+
 # Enable or disable extensions
 # See https://docs.scrapy.org/en/latest/topics/extensions.html
 #EXTENSIONS = {
