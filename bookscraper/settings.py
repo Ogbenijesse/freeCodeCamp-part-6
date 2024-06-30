@@ -69,6 +69,9 @@ EXTENSIONS = {
   'scrapeops_scrapy.extension.ScrapeOpsMonitor': 500, 
 }
 
+SCRAPEOPS_SETTINGS_EXCLUSION_LIST = [
+  'NAME_OF_SETTING_NOT_TO_LOG'
+]
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 #ITEM_PIPELINES = {
