@@ -12,7 +12,7 @@ BOT_NAME = 'bookscraper'
 SPIDER_MODULES = ['bookscraper.spiders']
 NEWSPIDER_MODULE = 'bookscraper.spiders'
 
-
+SCRAPEOPS_API_KEY = 'baba000e-2a16-4511-a9a1-b0e8fa16b606'
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'bookscraper (+http://www.yourdomain.com)'
 
